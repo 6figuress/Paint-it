@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: nvidia/cuda:11.5.2-base-ubuntu20.04
+From: nvidia/cuda:11.8.0-base-ubuntu22.04
 
 %help
     This container provides a CUDA environment, with Python.
