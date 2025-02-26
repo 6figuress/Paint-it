@@ -1,2 +1,13 @@
 .venv
 __pycache__
+.DS_Store
+.vscode
+.idea
+benchmark/
+datasets/
+cache/
+logs/
+report/
+outputs/
+submodules/
+external/
