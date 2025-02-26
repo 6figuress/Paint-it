@@ -13,7 +13,7 @@ From: nvidia/cuda:12.6.2-base-ubuntu22.04
 %post -c /bin/bash
   export DEBIAN_FRONTEND=noninteractive
   apt-get -y update
-  apt-get -y install git python3-pip python3-dev libglib2.0-0
+  apt-get -y install git python3-pip python3-dev libglib2.0-0 cuda
 
 %files
   requirements.txt requirements.txt
