@@ -39,10 +39,7 @@ From: nvidia/cuda:11.8.0-base-ubuntu22.04
 
     # Install Python packages
     python3 -m pip install --upgrade pip
-    pip3 install torch==1.12.0+cu113 \
-        torchaudio==0.12.0+cu113 \
-        torchvision==0.13.0+cu113 \
-        --extra-index-url https://download.pytorch.org/whl/cu113
+    pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
     pip3 install fvcore
     pip3 install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py310_cu113_pyt1120/pytorch3d-0.7.2-cp310-cp310-linux_x86_64.whl
     pip3 install git+https://github.com/NVlabs/nvdiffrast/
